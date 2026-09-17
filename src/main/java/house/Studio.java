@@ -1,6 +1,7 @@
 package house;
 
 public class Studio extends Apartment {
+
     public Studio() {
         this.numberOfBedrooms = 0;
     }
@@ -8,4 +9,10 @@ public class Studio extends Apartment {
     public void setSquareFootage(int sqft) {
         this.squareFootage = sqft;
     }
+
+    @Override
+    public void upgradeBedroom() {
+
+    }
+
 }
