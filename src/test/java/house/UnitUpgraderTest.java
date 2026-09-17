@@ -1,8 +1,8 @@
 package house;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import house.PenthouseSuite;
+import house.Studio;
+import house.UnitUpgrader;
 
 
 public class UnitUpgraderTest {
